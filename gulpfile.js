@@ -37,18 +37,16 @@ const cssmin = require('gulp-clean-css');
 //   }),
 // );
 
-gulp.task('default', () => {
-  gulp
-    .src(['./src/script/index.js'])
-    .pipe(concat('main.js'))
-    .pipe(
-      babel({
-        presets: ['@babel/env'],
-      }),
-    )
-    .pipe(uglify())
-    .pipe(rev())
-    .pipe(gulp.dest('./dist/js'))
-    .pipe(rev.manifest()) // - 生成一个rev-manifest.json
-    .pipe(gulp.dest('./rev'));
-});
+gulp.task('default', () => gulp
+  .src(['./src/script/index.js'])
+  .pipe(concat('main.js'))
+  .pipe(
+    babel({
+      presets: ['@babel/env'],
+    }),
+  )
+  .pipe(uglify())
+  .pipe(rev())
+  .pipe(gulp.dest('./dist/js'))
+  .pipe(rev.manifest()) // - 生成一个rev-manifest.json
+  .pipe(gulp.dest('./dist')));
