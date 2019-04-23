@@ -1,3 +1,3 @@
-import kuno from './kuno/kuno';
+import getRandomNum from './getRandomNum';
 
-console.log(kuno.clone({ a: 123, b: 56 }));
+console.log(getRandomNum());

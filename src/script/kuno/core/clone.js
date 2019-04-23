@@ -31,4 +31,3 @@ function clone(object, deep) {
   return result;
 }
 
-export default clone;

@@ -121,8 +121,7 @@ header
     background-position: 0 0;
 }
 
-section
-{
+section {
     display: block;
     position: relative;
     margin: 0 0 15px;
