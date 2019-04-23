@@ -127,6 +127,7 @@ section
     position: relative;
     margin: 0 0 15px;
     padding: 15px;
+    font-size: 13px;
 }
 
 .variation {
@@ -146,7 +147,7 @@ div.menu
     padding: 15px;
 }
 
-.cesiumLogo {
+.logo {
     display: block;
     float: left;
     position: relative;
@@ -157,7 +158,7 @@ div.menu
 	margin: 0;
 }
 
-#mainIndex .cesiumLogo {
+#mainIndex .logo {
     float: none;
     position: static;
 }
@@ -342,7 +343,7 @@ footer {
     line-height: 1em;
     position: relative;
     padding: 15px;
-    background-color: #f4f4ff;
+    background-color: #dff0d8;
     margin: 0;
     border-bottom: 1px solid #ccc;
     font-family: Consolas, "Liberation Mono", Menlo, "Courier New", Courier, Monaco, monospace;
