@@ -48,12 +48,12 @@ th { font-weight: normal; }
 img { border: none; }
 
 a {
-    color: #0053CF;
+    color: #0366d6;
 }
 a:link,
 a:active,
 a:visited {
-    color: #0053CF;
+    color: #0366d6;
     text-decoration: none;
 }
 
@@ -579,7 +579,7 @@ span.attribute-readonly,
 span.attribute-constant {
   display: inline-block;
   border-radius: 3px;
-  background-color: #779c34 !important;
+  background-color: #9c9 !important;
   color: #fff;
   font-size: 0.7em;
   padding: 2px 4px;
