@@ -8,7 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "node serve.js",
     "dev": "glup dev",
     "build": "gulp build",
     "release": "gulp release",

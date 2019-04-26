@@ -342,9 +342,9 @@ footer {
     line-height: 1em;
     position: relative;
     padding: 15px;
-    background-color: #dff0d8;
+    background-color: #f1f8ff;
     margin: 0;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #c8e1ff;
     font-family: Consolas, "Liberation Mono", Menlo, "Courier New", Courier, Monaco, monospace;
 }
 
@@ -385,7 +385,7 @@ h3
 h4
 {
     position: relative;
-    font-size: 140%;
+    font-size: 130%;
     font-weight: normal;
     letter-spacing: -0.01em;
     margin: 18px 0;

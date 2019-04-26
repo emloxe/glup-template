@@ -14,7 +14,7 @@ const streamToPromise = require('stream-to-promise');
 const del = require('del');
 const packageJson = require('./package.json');
 
-let { version } = packageJson;
+const { version, name } = packageJson;
 if (/\.0$/.test(version)) {
   version = version.substring(0, version.length - 2);
 }
