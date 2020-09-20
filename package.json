@@ -14,6 +14,7 @@
     "release": "gulp release",
     "doc": "gulp jsdoc",
     "eslint": "eslint src/",
+    "fix": "eslint --fix src/",
     "test": "jest --config=./tools/jest/jest.config.js"
   },
   "repository": {
